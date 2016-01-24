@@ -1,4 +1,6 @@
 alias ll="ls -l"
+alias ap="ansible-playbook"
+alias dm="docker-machine"
 
 export M2_HOME=/usr/share/apache-maven-3.3.3
 export PATH=$M2_HOME/bin:$PATH
@@ -27,6 +29,6 @@ export PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-if [ -f ~/.serect_secrets ]; then
+if [ -f ~/.bash_secrets ]; then
    source ~/.bash_secrets
 fi
